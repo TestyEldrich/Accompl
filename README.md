@@ -1,5 +1,5 @@
 # Accompl
-Chat android application with firebase services
+Android chat application with firebase services
 
 Login by email:
 
