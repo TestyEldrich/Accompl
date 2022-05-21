@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/drawable/background_received_message.xml" value="0.321" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/drawable/background_sent_message.xml" value="0.1" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/drawable/round_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_account.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_chat.xml" value="0.5" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_edit_profile.xml" value="0.627906976744186" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_filter_page.xml" value="0.685546875" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_interests_page.xml" value="0.4762550881953867" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_login.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_main.xml" value="0.4997651479567872" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/activity_search_page.xml" value="0.9" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/item_container_received_message.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/item_container_sent_message.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/list_layout.xml" value="1.25" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/rounded_edittext.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/TestyEldrich/Desktop/Accompl/app/src/main/res/layout/user_popup_menu.xml" value="0.6161790017211703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

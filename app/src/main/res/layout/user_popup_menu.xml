@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#d9d8ff">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/search_user_info" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popup_username"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="City"
+        android:textColor="#5627FF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/popup_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="example"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8"
+        app:srcCompat="@drawable/chatting_user" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/btn_chat_with_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/chaticon2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/popup_profile_pic"
+        android:layout_width="44dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/popup_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/popup_profile_pic"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/popup_username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="chat"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/popup_username3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="46dp"
+        android:fontFamily="@font/poppins"
+        android:text="Info"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popup_username3"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Bio"
+        android:textColor="#5627FF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/popup_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Lorem"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popup_bio"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Username"
+        android:textColor="#5627FF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/popup_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="example"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/exit_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/exit_popup" />
+</RelativeLayout>
